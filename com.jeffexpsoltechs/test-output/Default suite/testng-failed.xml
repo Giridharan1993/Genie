@@ -6,6 +6,7 @@
       <class name="com.exp.qa.testcases.LoginPagetest">
         <methods>
           <include name="setup"/>
+          <include name="LoginpageTitleTest"/>
           <include name="genielogoTest"/>
           <include name="tearDown"/>
         </methods>

@@ -20,21 +20,23 @@ public class LoginPagetest extends TestBase {
 	
 	@BeforeMethod
 	public void setup() {
-		intilization();
+		intilization("Chrome");
 	    loginpage = new LoginPage();
 	}
 	
-//	@Test
-//	public void LoginpageTitleTest() {
-//		String title = loginpage.validation_title();
-//		Assert.assertEquals(title, "Genie");
-//	}
+	@Test
+	public void LoginpageTitleTest() {
+		String title = loginpage.validation_title();
+		Assert.assertEquals(title, "Genie");
+	}
 	
 	@Test
 	public void genielogoTest() {
 		Boolean flag = loginpage.genie_img_validation();
 		Assert.assertTrue(flag);
 	}
+	
+	
 	
 
 	@AfterMethod
