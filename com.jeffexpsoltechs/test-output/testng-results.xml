@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-22T12:24:15 IST" name="Default suite" finished-at="2022-06-22T12:24:24 IST" duration-ms="8724">
+    <groups>
+    </groups>
+    <test started-at="2022-06-22T12:24:15 IST" name="Default test" finished-at="2022-06-22T12:24:24 IST" duration-ms="8724">
+      <class name="com.exp.qa.testcases.LoginPagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.exp.qa.testcases.LoginPagetest@17046283]" started-at="2022-06-22T12:24:15 IST" name="setup" finished-at="2022-06-22T12:24:20 IST" duration-ms="4684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginpageTitleTest()[pri:0, instance:com.exp.qa.testcases.LoginPagetest@17046283]" started-at="2022-06-22T12:24:20 IST" name="LoginpageTitleTest" finished-at="2022-06-22T12:24:20 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.exp.qa.testcases.LoginPagetest@17046283]" started-at="2022-06-22T12:24:20 IST" name="tearDown" finished-at="2022-06-22T12:24:20 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.exp.qa.testcases.LoginPagetest@17046283]" started-at="2022-06-22T12:24:20 IST" name="setup" finished-at="2022-06-22T12:24:24 IST" duration-ms="3437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="genielogoTest()[pri:0, instance:com.exp.qa.testcases.LoginPagetest@17046283]" started-at="2022-06-22T12:24:24 IST" name="genielogoTest" finished-at="2022-06-22T12:24:24 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genielogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.exp.qa.testcases.LoginPagetest@17046283]" started-at="2022-06-22T12:24:24 IST" name="tearDown" finished-at="2022-06-22T12:24:24 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.exp.qa.testcases.LoginPagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
